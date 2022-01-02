@@ -1,4 +1,4 @@
-            <div class="flex-1 mx-2 shadow-lg relative rounded-md mb-6">
+            <div class="flex-1 mx-2 px-7 md:px-3 shadow-lg relative rounded-md mb-6">
                 <a href="" class="absoulate w-9 left-3 h-9 leading-10 self-center text-base top-3 bg-black text-white bg-opacity-25 text-center hover:bg-yellow-500 hover:text-white duration-200 rounded-full text-base"><i class="fa fa-heart-o"></i></a>
                 <div class="py-20 bg-center" style="background-image: url('/img/hero-bg.jpg')"></div>
                 <div class="p-3">

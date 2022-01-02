@@ -32427,6 +32427,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif;
 }
 
+.feather {
+  display: inline-block;
+}
+
+.sticky-header-active .feather.feather-menu {
+  color: #000;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -188866,6 +188874,8 @@ h1, h2, h3, h4, h5, h6 {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
+
+
 
 
 

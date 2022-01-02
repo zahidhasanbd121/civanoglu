@@ -1,16 +1,16 @@
 <x-guest-layout>
     <div class="relative z-10 pt-52 pb-64 bg-cover bg-center" style="background-image: url(/img/hero-bg.jpg)">
             <div class="absolute h-full w-full bg-black opacity-70 top-0 left-0 z-10"></div>
-            <div class="container relative z-20 text-white text-center text-2xl">
-                <h2 class="font-bold text-5xl mb-6">Guide Property - your guide <br>to the primary real state market in Turkey</h2>
+            <div class="container relative z-20 text-white text-center text-xl md:text-2xl">
+                <h2 class="font-bold text-3xl md:text-5xl mb-6">Guide Property - your guide <br>to the primary real state market in Turkey <i data-feather="circle"></i></h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
     </div>
 
      <!-- Search From Area -->
-     <div class="-mt-10">
+     <div class="-mt-20 md:-mt-10">
          <div class="container">
-            <div class="rounded-lg bg-white p-4 relative -m-10 z-30 shadow-lg home-search">
+            <div class="rounded-lg bg-white p-4 mx-4 md:mx-0 relative z-30 shadow-lg home-search">
                 @include('components.property-search-form', ['locations' => $locations])
             </div>
          </div>

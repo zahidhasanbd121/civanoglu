@@ -1,5 +1,9 @@
 require('./bootstrap');
 
+import feather from 'feather-icons/dist/feather.min';
+
+feather.replace();
+
 import Alpine from 'alpinejs';
 //import jQuery from './jquery-3.6.0.slim.min';
 
