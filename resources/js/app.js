@@ -38,6 +38,10 @@ jQuery(document).ready(function ($) {
         centerMode: true,
         focusOnSelect: true
     });
+
+    $(".civanoglu-menu, .civanoglu-menu-items a").on("click", function () {
+        $(".civanoglu-menu-items").toggleClass('active');
+    });
 });
 
 

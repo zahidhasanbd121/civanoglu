@@ -3,8 +3,8 @@
         <a href="{{route('home')}}"><img width="80" src="/img/logo.jpg" alt=""></a>
     </div>
 
-     <div class="w-full hidden md:block">
-         <ul class="flex justify-center">
+     <div class="w-full absolute top-20 left-0 bg-white md:bg-opacity-0 md:relative md:top-0 civanoglu-menu-items z-50 md:z-0">
+         <ul class="md:flex justify-center">
              <li><a  class="inline-block p-4 text-white" href="{{route('properties')}}?type=0">Land</a></li>
              <li><a  class="inline-block p-4 text-white" href="{{route('properties')}}?type=2">{{__('Villa')}}</a></li>
              <li><a  class="inline-block p-4 text-white" href="{{route('properties')}}?type=1">Apartment</a></li>
@@ -24,7 +24,7 @@
     </div>
 
     <div class="min-w-max ml-10 md:hidden">
-        <button>
+        <button class="civanoglu-menu">
             <i class="text-white" data-feather="menu"></i>
         </button>
     </div>
