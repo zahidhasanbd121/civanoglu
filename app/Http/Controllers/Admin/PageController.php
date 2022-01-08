@@ -87,7 +87,6 @@ class PageController extends Controller
         $page->delete();
 
         $flasher->addSuccess('Page has been deleted.');
-
         return back();
     }
 }
